@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.js"],"names":["AOS","init","duration","once","offset"],"mappings":";;AAAAA,GAAG,CAACC,IAAJ,CAAS;AACPC,EAAAA,QAAQ,EAAE,IADH;AACS;AAChBC,EAAAA,IAAI,EAAE,KAFC;AAEM;AACbC,EAAAA,MAAM,EAAE,GAHD,CAGM;;AAHN,CAAT","file":"all.js","sourcesContent":["AOS.init({\n  duration: 1000, //秒數\n  once: false, //特效顯示一次 ture開 false關,會一直顯示\n  offset: 140, //什麼時候觸發\n});"]}
