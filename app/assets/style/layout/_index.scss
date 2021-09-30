@@ -3,12 +3,17 @@ body {
     line-height: 24px;
     overflow-x: hidden; //確保頁面在圖片滾動進入之前不會因此出現 x 軸
 }
+// 設計稿的 .container 內容寬度是 1410px 若有左右 padding 15px，.container 的 max-width 可以設定 1440px，加上 padding 後寬度較符合設計稿
 .container{
     width: 1410px;
     padding: 0 15px;
+    max-width: 1410px;
 }
 .nav-hover:hover{
     color: rgb(156, 156, 156);
+}
+.singleSpeed{
+    height: 985px;
 }
 .obvious:hover{
     color: rgb(156, 156, 156);
