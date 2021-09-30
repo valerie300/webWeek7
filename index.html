@@ -49,10 +49,10 @@
       </div>
     </nav>
 
-    
-<div class="d-flex justify-content-end position-relative">
+    <!-- 因右側大圖高度較高，可以在外層設定相同高度 985px -->
+<div class="d-flex justify-content-end position-relative singleSpeed">
   <div class="container">
-    <div class="mx-auto my-auto" data-aos="fade-right">
+    <div class="mx-auto mt-7" data-aos="fade-right">
       <h1 class="font-Merr mb-5">
         Single Speed, <br />
         Single Life.
@@ -68,7 +68,8 @@
       </button>
     </div>
   </div>
-  <div class="position-absolute top-50 end-0 translate-middle-y">
+  <!-- 不需加上 top-50 和 translate-middle-y，因右側大圖是填滿外層的高度的 -->
+  <div class="position-absolute end-0 w-50">
     <img
       class="bike"
       data-aos="fade-left"
